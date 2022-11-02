@@ -12,11 +12,23 @@ ul{
   list-style: none;
 }
 
+h2{
+  font-size: 2rem;
+}
+
 h2,
 p{
-  padding-bottom: 1.5rem;
   line-height: 2rem;
 }
+
+h2,
+p,
+.bg-blue>i,
+.card-plan:last-child img{
+  padding-bottom: 1.5rem;
+}
+
+
 
 button{
   border: none;
@@ -49,17 +61,17 @@ button{
 .container{
   width: 90%;
   margin: 0 auto;
-  padding: 1rem 0;
+  padding: 3rem 0 5rem 0;
 }
 
 .card{
   margin: .5rem 0;
-  border-radius: 10px;
+  border-radius: 30px;
   padding: 1.5rem;
 }
 
 .bg-purple{
-  background-color: purple;
+  background-color: #9593e6;
   color: white;
 }
 
@@ -78,6 +90,10 @@ body>header{
   background-color: #0084fd;
   line-height: 2rem;
   color: white;
+}
+
+nav.container{
+  padding: 1rem 0;
 }
 
 li i{
@@ -111,9 +127,23 @@ main img{
 
 .bg-blue>i{
   font-size: 5rem;
-  margin-bottom: 1.5rem;
 }
 /* END SECTION DEMO CARD */
+  .card-plan:first-child img{
+    margin-bottom: 4rem;
+  }
+
+  .card-plan:last-child p{
+    font-style: italic;
+  }
+
+  .card-plan i{
+    width: 40px;
+    line-height: 40px;
+    height: 40px;
+    border-radius: 100%;
+    color: black;
+  }
 
 /* STRATEGIC PLAN */
 
