@@ -49,14 +49,18 @@ body>header{
 /* END HEADER */
 
 /* MAIN */
-/* SECTION BLUE CARD */
+/* SECTION DEMO CARD */
 .card{
   background-color: lightskyblue;
   margin: 1rem 0;
   border-radius: 10px;
   padding: 1rem;
 }
-/* END SECTION BLUE CARD */
+/* END SECTION DEMO CARD */
+
+
+
+
 
 /* END MAIN */
 
