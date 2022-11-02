@@ -1,3 +1,5 @@
+/* FOR TABLET */
+
 @media screen and (min-width: 480px) {
   .flex{
     justify-content: space-between;
@@ -40,4 +42,27 @@
     width: 35%;
   }
   /* END ABOUT US */
+}
+
+/* FOR DESKTOP */
+@media screen and (min-width: 780px) {
+  .container{
+    max-width: 990px;
+  }
+
+  .cards-plan{
+    justify-content: center;
+    align-items: end;
+  }
+
+  .card-plan{
+    width: 40%;
+  }
+
+  /* BENEFIT */
+  .benefit-card{
+    width: calc(100% / 3 - .5rem);
+  }
+  /* END BENEFIT */
+  
 }
