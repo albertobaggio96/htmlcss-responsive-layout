@@ -1,6 +1,6 @@
 /* FOR TABLET */
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
   .flex{
     justify-content: space-between;
   }
@@ -45,7 +45,7 @@
 }
 
 /* FOR DESKTOP */
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 992px) {
   .container{
     max-width: 990px;
   }
