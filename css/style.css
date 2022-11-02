@@ -14,7 +14,18 @@ ul{
 
 h2,
 p{
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
+  line-height: 2rem;
+}
+
+button{
+  border: none;
+  padding: .5rem 4rem;
+  font-weight: bold;
+  color: white;
+  font-size: 1rem;
+  border-radius: 30px;
+  margin-bottom: 1.5rem;
 }
 
 /* FLEX */
@@ -44,7 +55,7 @@ p{
 .card{
   margin: .5rem 0;
   border-radius: 10px;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .bg-purple{
@@ -64,19 +75,48 @@ p{
 
 /* HEADER */
 body>header{
-  background-color: blue;
-  line-height: 3rem;
+  background-color: #0084fd;
+  line-height: 2rem;
   color: white;
+}
+
+li i{
+  font-size: 1.5rem;
+  vertical-align: middle;
 }
 /* END HEADER */
 /* MAIN */
+main img{
+  width: 100%;
+  display: flex;
+}
+
 /* SECTION DEMO CARD */
 .bg-blue{
   background-color: lightskyblue;
 }
+
+.card.bg-blue:first-child{
+  padding-bottom: 0;
+}
+
+.bg-blue>i,
+.bg-blue>h2{
+  color: #0083fc;
+}
+
+.bg-blue button{
+  background-color: #0084fd;
+}
+
+.bg-blue>i{
+  font-size: 5rem;
+  margin-bottom: 1.5rem;
+}
 /* END SECTION DEMO CARD */
 
 /* STRATEGIC PLAN */
+
 /* END STRATEGIC PLAN */
 
 /* TEATIMONIAL */
