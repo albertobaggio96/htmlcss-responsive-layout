@@ -49,10 +49,12 @@ p{
 
 .bg-purple{
   background-color: purple;
+  color: white;
 }
 
 .bg-white{
   background-color: white;
+  
 }
 
 /* HEADER */
@@ -89,6 +91,9 @@ body>header{
 /* END MAIN */
 
 /* FOOTER */
-
+  footer{
+    background-color: black;
+    color:white
+  }
 /* END FOOTER */
 
