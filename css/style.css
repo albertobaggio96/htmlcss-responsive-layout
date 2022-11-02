@@ -129,24 +129,23 @@ main img{
   font-size: 5rem;
 }
 /* END SECTION DEMO CARD */
-  .card-plan:first-child img{
-    margin-bottom: 4rem;
-  }
-
-  .card-plan:last-child p{
-    font-style: italic;
-  }
-
-  .card-plan i{
-    width: 40px;
-    line-height: 40px;
-    height: 40px;
-    border-radius: 100%;
-    color: black;
-  }
 
 /* STRATEGIC PLAN */
+.card-plan:first-child img{
+  margin-bottom: 4rem;
+}
 
+.card-plan:last-child p{
+  font-style: italic;
+}
+
+.card-plan i{
+  width: 40px;
+  line-height: 40px;
+  height: 40px;
+  border-radius: 100%;
+  color: black;
+}
 /* END STRATEGIC PLAN */
 
 /* TEATIMONIAL */
