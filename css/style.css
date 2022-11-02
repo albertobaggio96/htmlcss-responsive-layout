@@ -22,13 +22,12 @@ p{
 }
 
 h2,
+h3,
 p,
 .bg-blue>i,
 .card-plan:last-child img{
   padding-bottom: 1.5rem;
 }
-
-
 
 button{
   border: none;
@@ -64,6 +63,10 @@ button{
   padding: 3rem 0 5rem 0;
 }
 
+.text-center{
+  text-align: center;
+}
+
 .card{
   margin: .5rem 0;
   border-radius: 30px;
@@ -81,8 +84,8 @@ button{
 
 }
 
-.text-center{
-  text-align: center;
+.clr-purple{
+  color: #9593e6;
 }
 
 /* HEADER */
@@ -149,6 +152,27 @@ main img{
 /* END STRATEGIC PLAN */
 
 /* TEATIMONIAL */
+
+.testimonial h3{
+  font-weight: 300;
+}
+
+.card.bg-purple img{
+  width: 300px;
+  margin: 1rem auto;
+}
+
+.card.bg-purple i{
+  font-size: 1.5rem;
+}
+
+div.bold{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
 /* END TESTIMONIAL */
 
 /* BENEFITS */
