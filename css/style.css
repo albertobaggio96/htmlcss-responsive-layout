@@ -25,7 +25,8 @@ h2,
 h3,
 p,
 .bg-blue>i,
-.card-plan:last-child img{
+.card-plan:last-child img
+.number{
   padding-bottom: 1.5rem;
 }
 
@@ -176,6 +177,10 @@ div.bold{
 /* END TESTIMONIAL */
 
 /* BENEFITS */
+.number{
+  font-size: 3rem;
+  font-weight: bold;
+}
 /* END BENEFITS */
 
 /* ABOUT US */
