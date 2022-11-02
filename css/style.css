@@ -7,3 +7,47 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+
+ul{
+  list-style: none;
+}
+
+/* FLEX */
+.flex{
+  display: flex;
+}
+
+.flex-column{
+  flex-direction: column;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+
+.space-between{
+  justify-content: space-between;
+}
+/* END FLEX */
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* HEADER */
+body>header{
+  background-color: blue;
+  line-height: 3rem;
+  color: white;
+}
+/* END HEADER */
+
+/* MAIN */
+
+/* END MAIN */
+
+/* FOOTER */
+
+/* END FOOTER */
+
