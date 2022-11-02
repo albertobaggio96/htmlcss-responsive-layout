@@ -1,0 +1,43 @@
+@media screen and (min-width: 480px) {
+  .flex{
+    justify-content: space-between;
+  }
+  
+  /* DEMO CARD */
+  .card.bg-blue{
+    width: calc(100% / 3 - .5rem);
+  }
+
+  .card.bg-blue:first-child{
+    width: calc(100% / 3 * 2 - .5rem);
+  }
+  /* END DEMO CARD */
+
+  /* TESTIMONIAL */
+  .card.bg-purple{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .card.bg-purple p{
+    width: 80%;
+  }
+  /* END TESTIMONIAL */
+
+  /* BENEFIT */
+  .benefit-card{
+    width: calc(100% / 2 - .5rem);
+  }
+  /* END BENEFIT */
+  
+  /* ABOUT US */
+  .about-us{
+    width: 60%;
+  }
+
+  .tizio{
+    width: 35%;
+  }
+  /* END ABOUT US */
+}
