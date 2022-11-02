@@ -12,6 +12,11 @@ ul{
   list-style: none;
 }
 
+h2,
+p{
+  padding-bottom: 1rem;
+}
+
 /* FLEX */
 .flex{
   display: flex;
@@ -44,6 +49,14 @@ body>header{
 /* END HEADER */
 
 /* MAIN */
+/* SECTION BLUE CARD */
+.card{
+  background-color: lightskyblue;
+  margin: 1rem 0;
+  border-radius: 10px;
+  padding: 1rem;
+}
+/* END SECTION BLUE CARD */
 
 /* END MAIN */
 
