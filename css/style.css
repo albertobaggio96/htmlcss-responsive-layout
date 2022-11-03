@@ -67,8 +67,14 @@ figure{
   flex-wrap: wrap;
 }
 
+
+
 .space-between{
   justify-content: space-between;
+}
+
+.flex-start{
+  align-items: flex-start;
 }
 
 .item-center{
@@ -120,7 +126,7 @@ figure{
 .bg-white{
   background-color: white;
   color: black;
-
+  
 }
 
 .clr-purple{
@@ -136,6 +142,25 @@ figure{
   border-radius: 100%;
 }
 
+.hide{
+  display: none;
+}
+
+div.see-more:hover .hide{
+  display: block;
+}
+
+div.see-more:hover i{
+  rotate: 180deg;
+}
+
+div.see-more:hover .more-button{
+  display: none;
+}
+
+a:hover{
+  font-weight: bold;
+}
 /* HEADER */
 body>header{
   background-color: #0084fd;
@@ -156,7 +181,7 @@ nav ul{
   background-color: #0084fd;
   top: 3rem;
   right: 0rem;
-  padding: 0 1rem 1rem;
+  padding: 1rem;
 }
 
 nav li a{
@@ -319,18 +344,3 @@ a{
 /* END FOOTER */
 
 
-.hide{
-  display: none;
-}
-
-div.see-more:hover .hide{
-  display: block;
-}
-
-div.see-more:hover i{
-  rotate: 180deg;
-}
-
-div.see-more:hover .more-button{
-  display: none;
-}
