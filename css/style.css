@@ -45,7 +45,6 @@ figure{
   width: 200px;
   height: 200px;
   overflow: hidden;
-  border-radius: 100%;
   margin: 1rem auto
 }
 
@@ -109,6 +108,10 @@ figure{
   padding: 1.2rem;
 }
 
+.more-radius{
+  border-radius: 55px;
+}
+
 .bg-purple{
   background-color: #9593e6;
   color: white;
@@ -127,6 +130,10 @@ figure{
 .bold{
   font-size: 1.7rem;
   font-weight: bold;
+}
+
+.circle{
+  border-radius: 100%;
 }
 
 /* HEADER */
@@ -217,11 +224,10 @@ main img{
   font-style: italic;
 }
 
-.card-plan i{
+.card-plan i.circle{
   width: 40px;
   line-height: 40px;
   height: 40px;
-  border-radius: 100%;
   color: black;
 }
 /* END STRATEGIC PLAN */
@@ -312,3 +318,19 @@ a{
   }
 /* END FOOTER */
 
+
+.hide{
+  display: none;
+}
+
+div.see-more:hover .hide{
+  display: block;
+}
+
+div.see-more:hover i{
+  rotate: 180deg;
+}
+
+div.see-more:hover .more-button{
+  display: none;
+}
