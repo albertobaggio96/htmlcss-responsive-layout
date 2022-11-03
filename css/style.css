@@ -71,6 +71,11 @@ figure{
 .space-between{
   justify-content: space-between;
 }
+
+.item-center{
+  align-items: center;
+  height: 100%;
+}
 /* END FLEX */
 
 /* POSITION */
@@ -90,7 +95,7 @@ figure{
 }
 
 .small-container{
-  max-width: 450px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -135,10 +140,28 @@ nav.container{
   padding: 1rem 0;
 }
 
-li i{
+nav img{
+  height: 80%;
+}
+
+nav li{
+  display: none;
+}
+
+li button{
+  padding: .5rem;
+  font-weight: 300;
+  color: black;
+  background-color: white;
+  margin-bottom: 0;
+}
+
+nav li:first-child{
   font-size: 1.5rem;
   vertical-align: middle;
+  display: inline;
 }
+
 /* END HEADER */
 /* MAIN */
 main img{
@@ -196,7 +219,6 @@ main img{
 .testimonial h3{
   font-weight: 300;
 }
-
 
 .card.bg-purple i{
   font-size: 1.5rem;
