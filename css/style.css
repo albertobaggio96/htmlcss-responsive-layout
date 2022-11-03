@@ -26,7 +26,8 @@ h3,
 p,
 .bg-blue>i,
 .card-plan:last-child img
-.number{
+.number,
+div.light{
   padding-bottom: 1.5rem;
 }
 
@@ -114,7 +115,7 @@ figure{
 }
 
 .bold{
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: bold;
 }
 
@@ -192,7 +193,7 @@ main img{
   font-size: 1.5rem;
 }
 
-div.bold{
+.card div.bold{
   text-transform: uppercase;
 }
 
@@ -220,6 +221,20 @@ div.relative{
 /* END ABOUT US */
 
 /* GET STARTED */
+div.light{
+  color: #c8c7f0;
+  font-size: 1.2rem;
+}
+
+h2.gold{
+  font-size: 3rem;
+  color: #fdc15f;
+  padding: 2.5rem 0;
+}
+
+.super-button{
+  padding: 1.2rem 5rem;
+}
 /* END GET STARTED */
 
 
@@ -229,7 +244,20 @@ div.relative{
 /* FOOTER */
   footer{
     background-color: black;
-    color:white
+    color:white;
+  }
+
+  footer section.container{
+    padding: 3rem 0;
+  }
+
+  footer p{
+    line-height: normal;
+    padding-bottom: 3rem;
+  }
+
+  footer p:nth-child(2){
+    padding-bottom: 0;
   }
 /* END FOOTER */
 
