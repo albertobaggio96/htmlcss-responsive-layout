@@ -79,6 +79,7 @@
 
   .card.bg-blue:first-child img{
     width: 260px;
+    align-self: flex-end;
   }
 
 
