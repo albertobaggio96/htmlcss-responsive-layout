@@ -19,11 +19,17 @@
   .card.bg-purple{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     text-align: left;
+    padding: 1rem .5rem 1rem 0;
   }
 
-  .card.bg-purple p{
-    width: 80%;
+  .card.bg-purple div{
+    width: 65%;
+  }
+
+  .card.bg-purple div.bold{
+    font-size: 1rem;
   }
   /* END TESTIMONIAL */
 
@@ -35,7 +41,16 @@
   
   /* ABOUT US */
   .about-us{
-    width: 60%;
+    width: 55%;
+  }
+
+  .tizio p.bold{
+    font-size: 1.5rem;
+  }
+
+  #about-us-button{
+    font-size: .7rem;
+    padding: .5rem;
   }
 
   .tizio{
