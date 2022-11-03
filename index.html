@@ -20,15 +20,16 @@
   <header>
     <nav class="container flex space-between item-center">
       <img src="img/logo.png" alt="logo">
-      <ul class="flex item-center">
-        <li><i class="fa-solid fa-bars"></i></li>
-        <li>Planning</li>
-        <li>Testimonials</li>
-        <li>Feature</li>
-        <li>About us</li>
-        <li><button>Get Started</button></li>
-
-      </ul>
+      <div class="flex item-center menu">
+        <i class="fa-solid fa-bars"></i>
+        <ul class="absolute">
+          <li><a href="#planning">Planning</a> </li>
+          <li><a href="#testimonials">Testimonials</a> </li>
+          <li><a href="#feature">Feature</a> </li>
+          <li><a href="#about">About us</a> </li>
+          <li><a href="#started"><button>Get Started</button> </a></li>
+        </ul>
+        </div>
     </nav>
   </header>
   <!-- END HEADER -->
@@ -71,7 +72,7 @@
     <!-- END SECTION DEMO CARDS -->
 
     <!-- STRATEGIC PLAN -->
-    <section class="bg-purple">
+    <section class="bg-purple" id="planning">
       <div class="container flex wrap cards-plan ">
         <article class="card-plan">
           <img src="img/planning1.png" alt="social girl">
@@ -89,7 +90,7 @@
     <!-- END STRATEGIC PLAN -->
 
     <!-- TESTIMONIAL -->
-    <section class="container text-center">
+    <section class="container text-center" id="testimonials">
       <article class="testimonial">
         <h3>TESTIMONIALS</h3>
         <h2 class="clr-purple">We are committed expert partners</h2>
@@ -131,7 +132,7 @@
     <!-- END TESTIMONIAL -->
 
     <!-- BENEFITS -->
-    <section class="bg-purple">
+    <section class="bg-purple" id="feature">
       <div class="container">
       <h2 class="text-center">Benefit of working with us</h2>
         <div class="flex wrap">
@@ -185,7 +186,7 @@
     <!-- END BENEFITS -->
 
     <!-- ABOUT US -->
-    <section class="container flex wrap">
+    <section class="container flex wrap" id="about">
       <div class="about-us">
         <h2 class="clr-purple">About Us</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum non illo exercitationem laborum ratione. Natus voluptas sapiente adipisci, impedit explicabo nemo numquam excepturi modi ducimus hic eum aperiam fugiat doloribus.
@@ -206,7 +207,7 @@
     <!-- END ABOUT US -->
 
     <!-- GET STARTED -->
-    <section class="bg-purple">
+    <section class="bg-purple" id="started">
       <div class="container text-center">
         <div class="light">GET STARTED</div>
         <div class="bold simple">Simple, Trasparent Pricing</div>

@@ -144,24 +144,36 @@ nav img{
   height: 80%;
 }
 
-nav li{
-  display: none;
+nav ul{
+  display: none;  
+  background-color: #0084fd;
+  top: 3rem;
+  right: 0rem;
+  padding: 0 1rem 1rem;
 }
 
-li button{
+nav li a{
+  text-decoration: none;
+  color: white;
+  margin-right: .5rem;
+}
+
+li a button{
   padding: .5rem;
-  font-weight: 300;
+  font-weight: initial; 
   color: black;
   background-color: white;
-  margin-bottom: 0;
+  margin: 0;
 }
 
-nav li:first-child{
+.fa-bars{
   font-size: 1.5rem;
   vertical-align: middle;
-  display: inline;
 }
 
+div.menu:hover ul{
+  display: block;
+}
 /* END HEADER */
 /* MAIN */
 main img{
@@ -239,7 +251,7 @@ main img{
 /* END BENEFITS */
 
 /* ABOUT US */
-div.relative{
+.tizio div.relative{
   width: 200px;
 }
 
@@ -269,6 +281,10 @@ h2.gold{
 
 .super-button{
   padding: 1.2rem 5rem;
+}
+
+a{
+  color: white;
 }
 /* END GET STARTED */
 

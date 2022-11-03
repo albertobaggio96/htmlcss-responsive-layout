@@ -69,12 +69,21 @@
     max-width: 990px;
   }
 
-  nav li{
-    display: inline;
-    margin-right: .5rem;
+  ul.absolute{
+    position: static;
   }
 
-  nav li:first-child{
+  div.menu:hover ul{
+    display: flex;
+  }
+
+  nav ul{
+    display: flex;
+    margin: .5rem;
+    padding: 0;
+  }
+
+  .fa-bars{
     display: none;
   }
 
