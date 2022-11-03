@@ -24,7 +24,7 @@
     padding: 1.5rem .5rem;
   }
 
-  figure{
+  figure.circle{
     margin: .5rem;
   }
 
@@ -68,6 +68,19 @@
   .container{
     max-width: 990px;
   }
+
+  .card.bg-blue:first-child{
+    display: flex;
+  } 
+
+  .card.bg-blue:first-child div{
+    max-width: 350px;
+  }
+
+  .card.bg-blue:first-child img{
+    width: 260px;
+  }
+
 
   ul.absolute{
     position: static;

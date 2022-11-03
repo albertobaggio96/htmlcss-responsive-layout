@@ -41,7 +41,7 @@ button{
   margin-bottom: 1.5rem;
 }
 
-figure{
+figure.circle{
   width: 200px;
   height: 200px;
   overflow: hidden;
